@@ -1,0 +1,35 @@
+.eachGameImage {
+  height: 220px;
+  width: 150px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 500px;
+  overflow: scroll;
+  list-style-type: none;
+  color: #cbd5e1;
+}
+.link {
+  text-decoration: none;
+}
+.UlUpper {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 230px;
+  justify-content: space-between;
+  color: #00306e;
+}
+.loader {
+  text-align: center;
+  width: 81vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
