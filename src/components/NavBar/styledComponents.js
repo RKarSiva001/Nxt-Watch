@@ -5,7 +5,7 @@ export const NavBg = styled.div`
   flex-flex-direction: row;
   justify-content: space-between;
   padding: 22px;
-  width: 1200px;
+  width: 100%;
   background-color: ${props => (props.text ? '#181818' : '#f9f9f9 ')};
 `
 

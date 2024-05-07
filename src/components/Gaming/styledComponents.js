@@ -6,7 +6,8 @@ export const DisplayFlexGaming = styled.div`
 `
 
 export const Heading = styled.h1`
-  font-family: Roboto;
+  font-family: 'Roboto';
+
   color: ${props => (props.colorHeadingGame ? '#f9f9f9' : '#0f0f0f ')};
 `
 export const GamingStore = styled.div`
@@ -31,4 +32,5 @@ export const UlGame = styled.ul`
 `
 export const Lists = styled.li`
   color: ${props => (props.listsColors ? '#f9f9f9' : '#0f0f0f ')};
+  padding-bottom: 6px;
 `

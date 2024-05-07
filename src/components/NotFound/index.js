@@ -1,5 +1,5 @@
-import NavBar from '../components/Navbar'
-import MenuBar from '../components/MenuBar'
+import NavBar from '../NavBar'
+import MenuBar from '../MenuBar'
 
 const NotFound = () => (
   <div>

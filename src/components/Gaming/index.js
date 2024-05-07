@@ -6,7 +6,7 @@ import Cookies from 'js-cookie'
 
 import Loader from 'react-loader-spinner'
 
-import NavBar from '../Navbar'
+import NavBar from '../NavBar'
 
 import MenuBar from '../MenuBar'
 
@@ -130,8 +130,10 @@ class Gaming extends Component {
                           alt="video thumbnail"
                         />
                       </div>
-                      <p>{each.title}</p>
-                      <p>{each.viewsCount} Watching Worldwide</p>
+                      <p className="game-title">{each.title}</p>
+                      <p className="game-viewsCount">
+                        {each.viewsCount} Watching Worldwide
+                      </p>
                     </Lists>
                   </Link>
                 ))}

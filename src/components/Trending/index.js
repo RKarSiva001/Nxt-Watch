@@ -8,9 +8,9 @@ import Cookies from 'js-cookie'
 
 import {formatDistanceToNow} from 'date-fns'
 
-import NavBar from '../components/Navbar'
+import NavBar from '../NavBar'
 
-import MenuBar from '../components/MenuBar'
+import MenuBar from '../MenuBar'
 
 import './index.css'
 

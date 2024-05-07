@@ -16,7 +16,7 @@ import {
   LabelForShowPassword,
   FormContainer,
   ErrorMsg,
-} from './styledComponent'
+} from './styledComponents'
 
 import './index.css'
 

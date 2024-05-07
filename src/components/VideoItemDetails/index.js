@@ -11,9 +11,9 @@ import {formatDistanceToNow} from 'date-fns'
 
 import ReactPlayer from 'react-player'
 
-import NavBar from '../components/Navbar'
+import NavBar from '../NavBar'
 
-import MenuBar from '../components/MenuBar'
+import MenuBar from '../MenuBar'
 
 import ThemeContext from '../../context/ThemeContext'
 

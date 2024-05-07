@@ -13,7 +13,7 @@ export const RightSideViewHome = styled.div`
 export const BannerContainer = styled.div`
   background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
   background-size: cover;
-  width: 970px;
+  width: 100%;
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -28,11 +28,13 @@ export const BannerColumnText = styled.div`
   justify-content: space-around;
   height: 100%;
   width: 330px;
-  padding-left: 12px;
+  padding: 18px;
 `
 export const GetItNow = styled.button`
   height: 33px;
   width: 100px;
+  background-color: transparent;
+  cursor: pointer;
 `
 
 export const ButtonClose = styled.button`

@@ -6,8 +6,8 @@ import Cookies from 'js-cookie'
 
 import ThemeContext from '../../context/ThemeContext'
 
-import NavBar from '../components/Navbar'
-import MenuBar from '../components/MenuBar'
+import NavBar from '../NavBar'
+import MenuBar from '../MenuBar'
 
 import {DivBg, DivTextSaved} from './styledComponents'
 

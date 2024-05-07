@@ -10,9 +10,9 @@ import {Redirect, Link} from 'react-router-dom'
 import {IoMdClose} from 'react-icons/io'
 import {MdSearch} from 'react-icons/md'
 
-import NavBar from '../components/Navbar'
+import NavBar from '../NavBar'
 
-import MenuBar from '../components/MenuBar'
+import MenuBar from '../MenuBar'
 
 import ThemeContext from '../../context/ThemeContext'
 import './index.css'
